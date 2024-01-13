@@ -640,6 +640,16 @@ body {
 }
 
 .close-btn:hover .close-btn-img,
-.close-btn:focus .close-btn-img: {
+.close-btn:focus .close-btn-img {
     fill: #ffffff;
+}
+
+.modal-header-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
 }
