@@ -341,6 +341,10 @@ body {
     margin-bottom: 8px;
 }
 
+.social-block {
+    margin-right: 80px;
+}
+
 .social-section {
     display: flex;
     justify-content: center;
@@ -525,4 +529,16 @@ body {
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31d0aa;
+}
+
+.subscribe-block {
+}
+
+.subscribe-header-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
