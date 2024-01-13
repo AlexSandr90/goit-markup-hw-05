@@ -653,3 +653,16 @@ body {
     color: #2E2F42;
     margin-bottom: 16px;
 }
+
+.modal-form {
+}
+
+.modal-form-group {
+    margin-bottom: 8px;
+}
+
+.modal-form-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
