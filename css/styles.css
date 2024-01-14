@@ -774,7 +774,7 @@ body {
     background-color: #404BBF;
 }
 
-.form-input-checkbox:checked .modal-form-submit {
+.form-input-checkbox:checked span {
     border: none;
     fill: #f4f4fd;
 }
