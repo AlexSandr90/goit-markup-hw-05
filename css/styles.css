@@ -693,7 +693,7 @@ body {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus + .form-input-img {
+.modal-form-input:focus+.form-input-img {
     fill: #4D5AE5;
 }
 
@@ -730,7 +730,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
@@ -774,8 +774,8 @@ body {
     background-color: #404BBF;
 }
 
-input[type="checkbox"]:checked + label span {
+input[type="checkbox"]:checked+label span {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
-  }
+}
