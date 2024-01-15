@@ -735,12 +735,12 @@ body {
 }
 
 .form-privacy-span {
-    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -779,8 +779,3 @@ input[type="checkbox"]:checked + label span {
     border: none;
     fill: #F4F4FD;
   }
-
-/* .form-privacy-checkbox:checked .modal-form-submit {
-    border: none;
-    fill: #f4f4fd;
-} */
